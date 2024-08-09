@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://miro.medium.com/max/3622/1*RoXcbaF9lIqwpMjiXg54Vw.png');
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 500px;
+    background-image: url('https://miro.medium.com/max/3622/1*RoXcbaF9lIqwpMjiXg54Vw.png');
+    background-position-x: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    max-width: 400px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="number"], select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
